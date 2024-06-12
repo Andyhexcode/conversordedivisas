@@ -1,3 +1,5 @@
+**El programa como tal debe abrirse descargando el archivo ZIP (MiConversorDeMonedas.ZIP) omitir el .gitingnore.
+
 **Se abre el codigo con el nombre designado 
 
 public class CurrencyConverter {
