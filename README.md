@@ -1,9 +1,13 @@
 **Se abre el codigo con el nombre designado 
+
 public class CurrencyConverter {
 **Se integra la API inicialmente con mi KEY obtenida. 
+
  private static final String API_KEY = "c5c1df4a0747824382373851";
     private static final String BASE_URL = "https://v6.exchangerate-api.com/v6/";
+    
 ** Se integra el HTTP response con el HTTP request. 
+
 public static double obtenerTasaDeCambio(String baseCurrency, String targetCurrency) throws IOException, InterruptedException {
         String url = BASE_URL + API_KEY + "/latest/" + baseCurrency;
         HttpClient client = HttpClient.newHttpClient();
